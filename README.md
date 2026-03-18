@@ -2,39 +2,33 @@
 
 ## Overview
 
-This repository documents my self-study process in understanding Linear Regression, one of the fundamental algorithms in machine learning.
-
-The project includes both:
-
-
-* An implementation using Scikit-learn to explore practical usage
+This repository documents my self-study process in understanding Linear Regression, one of the fundamental algorithms in machine learning. The project focuses on applying Linear Regression using Scikit-learn on both synthetic and real datasets.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Build a solid understanding of Linear Regression
-* Compare custom implementation with Scikit-learn
-* Practice structuring a clean and reusable ML project
+* Apply Linear Regression to different datasets
+* Practice using Scikit-learn for model training and evaluation
+* Organize a clean and structured machine learning project
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 linear-regression/
 │
 ├── README.md
-├── requirements.txt
 │
 ├── src/
-│   └── linear_regression.py        
+│   └── linear_regression.py      
 │
 ├── notebooks/
 │   └── linear_regression_sklearn.ipynb
-│   
 │
-└── data/
+└── data/                         
 ```
 
 ---
@@ -42,9 +36,9 @@ linear-regression/
 ## 🧠 Key Concepts
 
 * Linear Regression model
-* Gradient Descent optimization
+* Model training using Scikit-learn
 * Mean Squared Error (MSE)
-* Model training and evaluation
+* Data splitting (train/test)
 
 ---
 
@@ -55,42 +49,23 @@ linear-regression/
 * Matplotlib
 * Scikit-learn
 
----
+## Results
 
-## 🚀 How to Run
+The model is applied to:
 
-1. Clone the repository:
-
-```
-git clone <your-repo-link>
-```
-
-2. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Open the notebooks:
-
-* Use Jupyter Notebook or VS Code
-
----
-
-## 📊 Results
-
-The model is trained on a synthetic dataset and demonstrates the relationship between input features and predicted outputs.
+* A synthetic dataset for demonstration
+* A real dataset for practice
 
 Visualizations include:
 
-* Regression line on training data
+* Regression line
 * Comparison between predicted and actual values
 
 ---
 
-## 🔍 Future Improvements
+##  Future Improvements
 
+* Implement Linear Regression from scratch
 * Add Regularization (Ridge, Lasso)
-* Test on real-world datasets
-* Improve optimization performance
-* Extend to other regression models
+* Experiment with more datasets
+* Improve model evaluation
