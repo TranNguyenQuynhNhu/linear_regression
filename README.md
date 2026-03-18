@@ -33,7 +33,7 @@ linear-regression/
 
 ---
 
-## 🧠 Key Concepts
+## Key Concepts
 
 * Linear Regression model
 * Model training using Scikit-learn
@@ -42,12 +42,14 @@ linear-regression/
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Python
 * NumPy
 * Matplotlib
 * Scikit-learn
+
+---
 
 ## Results
 
@@ -63,7 +65,7 @@ Visualizations include:
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 * Implement Linear Regression from scratch
 * Add Regularization (Ridge, Lasso)
