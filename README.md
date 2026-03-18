@@ -19,15 +19,11 @@ This repository documents my self-study process in understanding Linear Regressi
 
 ```
 linear-regression/
-│
 ├── README.md
-│
 ├── src/
 │   └── linear_regression.py      
-│
 ├── notebooks/
 │   └── linear_regression_sklearn.ipynb
-│
 └── data/                         
 ```
 
